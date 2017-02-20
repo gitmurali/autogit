@@ -1,2 +1,2 @@
 # autogit
-Interactive git on Command line.
+Interactive git on Command line in shell script
