@@ -1,0 +1,4 @@
+branch()
+{
+	echo "I'm in branch";
+}

@@ -30,5 +30,29 @@ NOCOLOUR='\e[0m'
 #printf "${GREEN}#####			 date: 	20/02/2017									########\n";
 #printf "${CYAN}###############################################################################################################################\n";
 
+source ./git_functions
 
-echo "\033[36mChoose an option from the below list?"
+echo "\033[36mWhat you want to do?"
+echo "\n"
+echo "\033[36m1. Git Branch "
+echo "\033[31m2. Git Log"
+echo "\033[32m3. Git Delete"
+echo "\033[33m4. Git Merge or Rebase"
+echo "\033[34m5. Git Tag"
+echo "\033[35m6. Git Status"
+
+read NUM
+
+case $NUM in
+	1) branch ;;
+	2) Log ;;
+	3) Delete ;;
+	4) echo "four" ;;
+	5) echo "five" ;;
+	6) echo "six" ;;
+	7) echo "seven" ;;
+	8) echo "eight" ;;
+	9) echo "nine" ;;
+	10) echo "ten" ;;
+	*) echo "INVALID NUMBER!" ;;
+esac
