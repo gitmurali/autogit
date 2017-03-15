@@ -361,4 +361,4 @@ __quit() {
   break 2;
 }
 
-alias autogit=__init
+alias gitish=__init
