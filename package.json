@@ -1,21 +1,23 @@
 {
-  "name": "autogit",
+  "name": "gitish",
   "version": "1.0.0",
   "description": "This script runs in the bash to automate general git operations.",
-  "main": "autogit.sh",
+  "main": "gitish.sh",
   "scripts": {
-    "test": "autogit"
+    "test": "gitish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitmurali/autogit.git"
+    "url": "git+https://github.com/gitmurali/gitish.git"
   },
   "keywords": [
     "autogit",
     "git",
     "git-cli",
     "git",
-    "cli"
+    "cli",
+    "gitish",
+    "git shell"
   ],
   "author": "candy519.murali@gmail.com",
   "license": "MIT",
