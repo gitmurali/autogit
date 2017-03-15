@@ -1,6 +1,8 @@
+# gitish ( git interactive shell )
+
 ## Synopsis
 
-gitish is Interactive git in shell. Interactive git on Command line in shell script.
+`gitish` is Interactive git in shell. Interactive git on Command line in shell script.
  
 ## Motivation
 
@@ -10,7 +12,7 @@ This cli tool can make you a bit more productive in your teams.
 
 ## Installation
 
-npm install -g gitish
+`npm install -g gitish`
 
 ## License
 
