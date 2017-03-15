@@ -1,11 +1,8 @@
 {
   "name": "gitish",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This script runs in the bash to automate general git operations.",
   "main": "gitish.sh",
-  "scripts": {
-    "test": "gitish"
-  },
   "scripts": {
     "build": "./gitish.sh"
   },
