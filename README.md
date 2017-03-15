@@ -17,7 +17,6 @@ This cli tool can make you a bit more productive in your teams.
 ## Usage
 
 After installation just run gitish with command `gitish`
-`npm install -g gitish`
 
 # License
 
