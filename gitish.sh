@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 #title           :autogit.sh
 #description     :This script will automate the general git operations.
 #author          :Murali Prasanth N
@@ -19,6 +20,7 @@ REMOTE=origin #Change here if your remote is different than origin
 LOG=log
 DIR=.git/ #to check if it's a valid git repo.
 CHOOSE=$(( ( RANDOM % 10 )  + 1 ))  #generate random colors with rand.
+PDIR=$(pwd)
 
 ## Options can be removed if you don't need any of them.
 MAIN_OPTIONS=("init" "config" "status" "log" "branch" "clean" "reset" "tag" "commit" "diff" "revert" "rename" "stash" "cherry-pick" "help" "quit")
@@ -361,4 +363,4 @@ __quit() {
   break 2;
 }
 
-alias gitish=__init
+__init;

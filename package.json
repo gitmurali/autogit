@@ -6,6 +6,9 @@
   "scripts": {
     "test": "gitish"
   },
+  "scripts": {
+    "build": "./gitish.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitmurali/gitish.git"
