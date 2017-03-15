@@ -7,7 +7,6 @@
 #usage           :bash autogit.sh
 #bash_version    :3.2.57(1)-release
 
-
 # declare constants
 GIT=git
 STASH=stash

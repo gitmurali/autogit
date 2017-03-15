@@ -1,0 +1,26 @@
+{
+  "name": "autogit",
+  "version": "1.0.0",
+  "description": "This script runs in the bash to automate general git operations.",
+  "main": "autogit.sh",
+  "scripts": {
+    "test": "autogit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmurali/autogit.git"
+  },
+  "keywords": [
+    "autogit",
+    "git",
+    "git-cli",
+    "git",
+    "cli"
+  ],
+  "author": "candy519.murali@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitmurali/autogit/issues"
+  },
+  "homepage": "https://github.com/gitmurali/autogit#readme"
+}
