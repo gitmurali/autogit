@@ -20,6 +20,7 @@
     "git shell"
   ],
   "author": "candy519.murali@gmail.com",
+  "readmeFilename": "README.md",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gitmurali/autogit/issues"
