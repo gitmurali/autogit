@@ -2,7 +2,7 @@
   "name": "gitish",
   "version": "1.0.7",
   "description": "This script runs in the bash to automate general git operations.",
-  "main": "./index.js",
+  "main": "bin/index.js",
   "bin": {
     "gitish": "bin/index.js"
   },
