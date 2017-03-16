@@ -1,14 +1,19 @@
 #!/usr/bin/env bash
 
-#title           :autogit.sh
+#--------------------------------------------------------------------
+#title           :gitish.sh
 #description     :This script will automate the general git operations.
 #author          :Murali Prasanth N
 #date            :20170308
 #version         :1.0
-#usage           :bash autogit.sh
+#usage           :bash gitish.sh
 #bash_version    :3.2.57(1)-release
+#--------------------------------------------------------------------
 
+
+#--------------------------------------------------------------------
 # declare constants
+#--------------------------------------------------------------------
 GIT=git
 STASH=stash
 CONFIG=config
@@ -33,7 +38,20 @@ export WHITEBOLD='\033[1;37m'
 export RED='\033[1;31m'
 export NC='\033[0m' # No Color
 
-## Options can be removed if you don't need any of them.
+#--------------------------------------------------------------------
+# Icons
+#--------------------------------------------------------------------
+TICK="✅"
+TICK2="✔︎"
+WARN="⚠️"
+ERROR="‼️"
+INFO="ℹ️"
+TIMER="⏳"
+BEER="🍺"
+
+#--------------------------------------------------------------------
+# Options can be removed if you don't need any of them.
+#--------------------------------------------------------------------
 MAIN_OPTIONS=("init" "config" "status" "log" "branch" "clean" "reset" "tag" "commit" "diff" "revert" "rename" "stash" "cherry-pick" "help" "quit")
 RESET_OPTIONS=("soft" "hard" "mixed" "reset_file" "status" "back" "quit")
 CONFIG_OPTIONS=("System" "User" "Project" "list" "status" "back" "quit")
@@ -44,7 +62,9 @@ BRANCH_OPTIONS=("rebase" "checkout" "merge" "merge_abort" "push" "diff" "delete"
 COMMIT_OPTIONS=("add" "add_all" "unstage_all" "unstage_file" "commit" "add_commit" "status" "back" "quit")
 CHERRY_PICK_OPTIONS=("branch_commit" "abort" "continue" "quit_cpick" "status" "back" "quit")
 
-### initialize autogit ###
+#--------------------------------------------------------------------
+# initialize gitish
+#--------------------------------------------------------------------
 __init(){
   if [ -d $DIR ];
   then
