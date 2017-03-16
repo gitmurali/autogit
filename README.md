@@ -14,6 +14,8 @@ This cli tool can make you a bit more productive in your teams.
 
 `npm install -g gitish`
 
+![gitish](https://i1.wp.com/muraliprashanth.me/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-12.41.45.png)
+
 ## License
 
 MIT
