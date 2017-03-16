@@ -1,2 +1,3 @@
-const spawn = require("child_process").spawn;
+var spawn = require("child_process").spawn;
+
 spawn("sh", ["gitish.sh"], {stdio: "inherit"});
