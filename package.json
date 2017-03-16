@@ -1,6 +1,6 @@
 {
   "name": "gitish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This script runs in the bash to automate general git operations.",
   "main": "gitish.sh",
   "scripts": {
