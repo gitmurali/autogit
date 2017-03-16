@@ -1,1 +1,2 @@
-require('child_process').spawn('sh', ['gitish.sh'], {stdio: 'inherit'});
+const spawn = require("child_process").spawn;
+spawn("sh", ["gitish.sh"], {stdio: "inherit"});
