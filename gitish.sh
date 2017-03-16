@@ -22,6 +22,17 @@ DIR=.git/ #to check if it's a valid git repo.
 CHOOSE=$(( ( RANDOM % 10 )  + 1 ))  #generate random colors with rand.
 PDIR=$(pwd)
 
+#--------------------------------------------------------------------
+# Colors
+#--------------------------------------------------------------------
+export GREEN='\033[0;32m'
+export GRAY='\033[0;37m'
+export LIGHTBLUE='\033[1;34m'
+export LIGHTGREEN='\033[1;32m'
+export WHITEBOLD='\033[1;37m'
+export RED='\033[1;31m'
+export NC='\033[0m' # No Color
+
 ## Options can be removed if you don't need any of them.
 MAIN_OPTIONS=("init" "config" "status" "log" "branch" "clean" "reset" "tag" "commit" "diff" "revert" "rename" "stash" "cherry-pick" "help" "quit")
 RESET_OPTIONS=("soft" "hard" "mixed" "reset_file" "status" "back" "quit")

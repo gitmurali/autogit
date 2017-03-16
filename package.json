@@ -2,9 +2,12 @@
   "name": "gitish",
   "version": "1.0.5",
   "description": "This script runs in the bash to automate general git operations.",
-  "main": "gitish.sh",
+  "main": "./index.js",
+  "bin": {
+    "gitish": "bin/index.js"
+  },
   "scripts": {
-    "build": "./gitish.sh"
+    "gitish": "./gitish.sh"
   },
   "repository": {
     "type": "git",
